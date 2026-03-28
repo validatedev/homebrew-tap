@@ -13,7 +13,7 @@ cask "clamper" do
   end
 
   auto_updates true
-  depends_on macos: ">= :tahoe"
+  depends_on macos: ">= :sequoia"
 
   app "Clamper.app"
 
