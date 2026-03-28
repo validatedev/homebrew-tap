@@ -18,6 +18,14 @@ A macOS menu bar app for managing Homebrew services.
 brew install --cask brew-services-manager
 ```
 
+### Clamper
+
+Customize macOS menu bar icon spacing.
+
+```bash
+brew install --cask clamper
+```
+
 ## Update / Uninstall
 
 ```bash
@@ -25,7 +33,9 @@ brew update
 brew upgrade --cask
 
 brew uninstall --cask brew-services-manager
+brew uninstall --cask clamper
 
 # Remove user data
 brew uninstall --cask --zap brew-services-manager
+brew uninstall --cask --zap clamper
 ```
