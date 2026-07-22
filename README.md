@@ -22,7 +22,11 @@ brew trust validatedev/tap
 A macOS menu bar app for managing Homebrew services.
 
 ```bash
+# Direct install
 brew install --cask validatedev/tap/brew-services-manager
+
+# Short name after trusting the tap
+brew install --cask brew-services-manager
 ```
 
 ### Clamper
@@ -30,7 +34,11 @@ brew install --cask validatedev/tap/brew-services-manager
 Customize macOS menu bar icon spacing.
 
 ```bash
+# Direct install
 brew install --cask validatedev/tap/clamper
+
+# Short name after trusting the tap
+brew install --cask clamper
 ```
 
 ### Fira Code Chunky
@@ -38,7 +46,11 @@ brew install --cask validatedev/tap/clamper
 Fira Code with outlines shifted 50 design units heavier.
 
 ```bash
+# Direct install
 brew install --cask validatedev/tap/font-fira-code-chunky
+
+# Short name after trusting the tap
+brew install --cask font-fira-code-chunky
 ```
 
 ### Fira Code Chunky Nerd Font
@@ -46,7 +58,11 @@ brew install --cask validatedev/tap/font-fira-code-chunky
 Plain, Mono, and Propo Nerd Font variants of Fira Code Chunky.
 
 ```bash
+# Direct install
 brew install --cask validatedev/tap/font-fira-code-chunky-nerd-font
+
+# Short name after trusting the tap
+brew install --cask font-fira-code-chunky-nerd-font
 ```
 
 ## Update / Uninstall
