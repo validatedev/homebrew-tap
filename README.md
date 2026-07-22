@@ -4,8 +4,15 @@ Homebrew tap for validatedev's macOS apps and fonts.
 
 ## Install
 
+The fully qualified commands below automatically tap this repository and trust
+only the requested cask. Homebrew 6 requires this explicit trust for
+third-party taps.
+
+To use short cask names instead, trust the whole tap once:
+
 ```bash
 brew tap validatedev/tap
+brew trust validatedev/tap
 ```
 
 ## Casks
@@ -15,7 +22,7 @@ brew tap validatedev/tap
 A macOS menu bar app for managing Homebrew services.
 
 ```bash
-brew install --cask brew-services-manager
+brew install --cask validatedev/tap/brew-services-manager
 ```
 
 ### Clamper
@@ -23,7 +30,7 @@ brew install --cask brew-services-manager
 Customize macOS menu bar icon spacing.
 
 ```bash
-brew install --cask clamper
+brew install --cask validatedev/tap/clamper
 ```
 
 ### Fira Code Chunky
